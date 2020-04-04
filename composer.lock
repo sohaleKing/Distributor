@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0dcbdc80776ca79d6311b8f92c5a4b5",
+    "content-hash": "b998e18f394e349d5a217d6b57abe6a9",
     "packages": [
+        {
+            "name": "alphametric/laravel-validation-rules",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alphametric/laravel-validation-rules.git",
+                "reference": "586ccf377fd9261ca3095833ceaa6140596d0b7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alphametric/laravel-validation-rules/zipball/586ccf377fd9261ca3095833ceaa6140596d0b7d",
+                "reference": "586ccf377fd9261ca3095833ceaa6140596d0b7d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.8",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alphametric\\Validation\\Rules\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alphametric",
+                    "email": "noreply@alphametric.co"
+                }
+            ],
+            "description": "A package to provide a set of reusable Laravel validation rules.",
+            "homepage": "https://github.com/alphametric/laravel-validation-rules",
+            "keywords": [
+                "alphametric",
+                "laravel",
+                "php",
+                "rules",
+                "validation"
+            ],
+            "time": "2019-12-31T10:48:24+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "1.3.0",
