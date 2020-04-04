@@ -4,12 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title> Business -LaravelProject</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+   
         <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <style>
             html, body {
                 background-color: #fff;
@@ -80,20 +84,16 @@
             @endif
 
             <div class="content">
+                 <img src="{{URL::asset('/img/logo.png')}}" alt="LogoPic" height="200" width="200">
                 <div class="title m-b-md">
-                    Laravel
+
+                    Business Laravel Project 
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <p>made by <a>Soheyl Rahgozar</a> and <a>Raviteja Medudula</a> as a project based learning by <a>Prashanthi Ramesh<a> on April 2020</p>
                 </div>
+                <button type="button" class="btn btn-dark">Warning</button>
             </div>
         </div>
     </body>
