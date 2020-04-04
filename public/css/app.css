@@ -72,7 +72,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #ebb970;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2182,9 +2182,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #a1cbef;
+  border-color: #df9f42;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(223, 159, 66, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2989,7 +2989,7 @@ fieldset:disabled a.btn {
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
+  background-color: #d89a40;
   border-color: #1d2124;
 }
 
@@ -5013,8 +5013,9 @@ input[type=button].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #343a40;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  color: white;
 }
 
 .card-header:first-child {

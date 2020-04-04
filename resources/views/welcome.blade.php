@@ -69,6 +69,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
+       
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -91,9 +92,9 @@
                 </div>
 
                 <div class="links">
-                    <p>made by <a>Soheyl Rahgozar</a> and <a>Raviteja Medudula</a> as a project based learning by <a>Prashanthi Ramesh<a> on April 2020</p>
+                    <p>made by <a href="https://github.com/sohaleKing/business">Soheyl Rahgozar</a> and <a href="https://github.com/Ravitejam276">Raviteja Medudula</a> as a project based learning by <a href="https://github.com/PrashanthiRamesh">Prashanthi Ramesh<a> on April 2020</p>
                 </div>
-                <button type="button" class="btn btn-dark">Warning</button>
+                <a href="{{ url('/home') }}"><button type="button" class="btn btn-dark">Visit the Home Page</button></a>
             </div>
         </div>
     </body>

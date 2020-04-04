@@ -4,6 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+        <img src="{{URL::asset('/img/register-icon.png')}}" alt="LogoPic" height="50" width="62" class="my-1">
             <div class="card">
                 <div class="card-header">{{ __('Register') }}</div>
 
@@ -63,7 +64,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-dark">
                                     {{ __('Register') }}
                                 </button>
                             </div>
