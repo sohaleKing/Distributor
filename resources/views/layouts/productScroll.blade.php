@@ -41,7 +41,7 @@
                                         <div class="single-grid-product">
                                             <div class="single-grid-product__image">
 
-                                                <a href="product-details-basic.html" class="image-wrap">
+                                                <a href="{{ url('/cart') }}" class="image-wrap">
                                                     <img src="assets/img/products/Coconut_oil-1.jpg" class="img-fluid" alt="">
                                                     <img src="assets/img/products/Coconut_oil-2.jpg" class="img-fluid" alt="">
                                                 </a>
@@ -52,7 +52,7 @@
                                                 </div>
                                             </div>
                                             <div class="single-grid-product__content">
-                                                <h3 class="title text-center"><a href="product-details-basic.html">Coconut Oil</a></h3>
+                                                <h3 class="title text-center"><a href="{{ url('/cart') }}">Coconut Oil</a></h3>
                                                 
                                                 <a href="#" class="favorite-icon" data-tippy="Add to Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left">
                                                     <i class="fa fa-heart-o"></i>
@@ -70,7 +70,7 @@
                                         <div class="single-grid-product">
                                             <div class="single-grid-product__image">
 
-                                                <a href="product-details-basic.html" class="image-wrap">
+                                                <a href="{{ url('/cart') }}" class="image-wrap">
                                                     <img src="assets/img/products/olive_oil-3.jpg" class="img-fluid" alt="">
                                                     <img src="assets/img/products/olive_oil-2.jpg" class="img-fluid" alt="">
                                                 </a>
@@ -81,7 +81,7 @@
                                                 </div>
                                             </div>
                                             <div class="single-grid-product__content">
-                                                <h3 class="title text-center"><a href="product-details-basic.html">Olive Oil</a></h3>
+                                                <h3 class="title text-center"><a href="{{ url('/cart') }}">Olive Oil</a></h3>
                                                 
                                                 <a href="#" class="favorite-icon" data-tippy="Add to Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left">
                                                     <i class="fa fa-heart-o"></i>
@@ -99,7 +99,7 @@
                                         <div class="single-grid-product">
                                             <div class="single-grid-product__image">
 
-                                                <a href="product-details-basic.html" class="image-wrap">
+                                                <a href="{{ url('/cart') }}" class="image-wrap">
                                                     <img src="assets/img/products/macadamia-3.jpg" class="img-fluid" alt="">
                                                     <img src="assets/img/products/macadamia-1.jpg" class="img-fluid" alt="">
                                                 </a>
@@ -110,7 +110,7 @@
                                                 </div>
                                             </div>
                                             <div class="single-grid-product__content">
-                                                <h3 class="title text-center"><a href="product-details-basic.html">Macadonia Oil</a></h3>
+                                                <h3 class="title text-center"><a href="{{ url('/cart') }}">Macadonia Oil</a></h3>
                                                 
                                                 <a href="#" class="favorite-icon" data-tippy="Add to Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left">
                                                     <i class="fa fa-heart-o"></i>
@@ -128,7 +128,7 @@
                                         <div class="single-grid-product">
                                             <div class="single-grid-product__image">
 
-                                                <a href="product-details-basic.html" class="image-wrap">
+                                                <a href="{{ url('/cart') }}" class="image-wrap">
                                                     <img src="assets/img/products/Black_Caraway_Seed-3.jpg" class="img-fluid" alt="">
                                                     <img src="assets/img/products/Black_Caraway_Seed-2.jpg" class="img-fluid" alt="">
                                                 </a>
@@ -139,7 +139,7 @@
                                                 </div>
                                             </div>
                                             <div class="single-grid-product__content">
-                                                <h3 class="title text-center"><a href="product-details-basic.html">Black Seed Oil</a></h3>
+                                                <h3 class="title text-center"><a href="{{ url('/cart') }}">Black Seed Oil</a></h3>
                                                 
                                                 <a href="#" class="favorite-icon" data-tippy="Add to Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left">
                                                     <i class="fa fa-heart-o"></i>
@@ -157,7 +157,7 @@
                                         <div class="single-grid-product">
                                             <div class="single-grid-product__image">
 
-                                                <a href="product-details-basic.html" class="image-wrap">
+                                                <a href="{{ url('/cart') }}" class="image-wrap">
                                                     <img src="assets/img/products/Almond-2.jpg" class="img-fluid" alt="">
                                                     <img src="assets/img/products/Almond-3.jpg" class="img-fluid" alt="">
                                                 </a>
@@ -168,7 +168,7 @@
                                                 </div>
                                             </div>
                                             <div class="single-grid-product__content">
-                                                <h3 class="title text-center"><a href="product-details-basic.html">Almond Oil</a></h3>
+                                                <h3 class="title text-center"><a href="{{ url('/cart') }}">Almond Oil</a></h3>
                                                 
                                                 <a href="#" class="favorite-icon" data-tippy="Add to Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left">
                                                     <i class="fa fa-heart-o"></i>

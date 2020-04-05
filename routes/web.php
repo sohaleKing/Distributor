@@ -23,8 +23,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 
   
 Route::view('/contact', 'contact');
+Route::post('/contactController','contactController@formSubmit');
+Route::view('/contactMsg', 'contactMsg');
+
 Route::view('/product', 'product');
 Route::view('/cart', 'cart');
 Route::view('/checkout', 'checkout');
 Route::view('/detail', 'detail');
+
 
