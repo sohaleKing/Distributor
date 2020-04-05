@@ -21,7 +21,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('{path}',"HomeController@index")->where( 'path', "/^[a-z0-9]([0-9a-z_-\s])+$/i" );
-
-
+  
+Route::view('/contact', 'contact');
+Route::view('/product', 'product');
+Route::view('/cart', 'cart');
+Route::view('/checkout', 'checkout');
+Route::view('/detail', 'detail');
 
