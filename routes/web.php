@@ -28,9 +28,11 @@ Route::view('/contactMsg', 'contactMsg');
 
 
 Route::group(['middleware' => ['auth']], function () {
-
-Route::view('/product', 'product');
 Route::view('/cart', 'cart');
 Route::view('/checkout', 'checkout');
 Route::view('/detail', 'detail');
 });
+
+
+
+Route::get('/product', 'ProductController@index')->name('product');
