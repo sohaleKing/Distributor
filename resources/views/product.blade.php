@@ -24,7 +24,7 @@
                         <div class="row my-5">
                             <div class="col-lg-4">
                                     <div class="single-image">
-                                            <img src="assets/img/products/olive_oil-3.jpg" class="img-fluid" alt="" width="400px" height="540px">
+                                            <img src="assets/img/products/{{ $product->img }}.jpg" class="img-fluid" alt="" width="400px" height="540px">
                                     </div>
                                 </div>
                             <div class="col-lg-8">

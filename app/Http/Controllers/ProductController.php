@@ -18,5 +18,13 @@ class ProductController extends Controller
 
         return view ('product')->with('products', $products);
     }
-  
+
+/*
+     public function show($img)
+    {
+        $products = Product::where('img', $img)->firstOrFail();
+
+        return view ('product')->with('products', $products);
+    }
+  */
 }
