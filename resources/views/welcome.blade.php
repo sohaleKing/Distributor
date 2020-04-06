@@ -80,10 +80,11 @@
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}">Register</a>
                         @endif
+                        <a href="{{ url('contact') }}">Contact</a>
                     @endauth
                 </div>
             @endif
-
+            
             <div class="content">
                  <img src="{{URL::asset('/img/logo.png')}}" alt="LogoPic" height="200" width="200">
                 <div class="title m-b-md">
@@ -92,7 +93,7 @@
                 </div>
 
                 <div class="links">
-                    <p>made by <a href="https://github.com/sohaleKing/business">Soheyl Rahgozar</a> and <a href="https://github.com/Ravitejam276">Raviteja Medudula</a> as a project based learning by <a href="https://github.com/PrashanthiRamesh">Prashanthi Ramesh<a> on April 2020</p>
+                    <p>made by <a href="https://github.com/sohaleKing/business">Soheyl Rahgozar</a> and <a href="https://github.com/Ravitejam276">Raviteja Medudula</a> as a project based learning by <a href="https://github.com/PrashanthiRamesh">Prashanthi Ramesh<a> on April 2020 </p>
                 </div>
                 <a href="{{ url('/home') }}"><button type="button" class="btn btn-dark">Visit the Home Page</button></a>
             </div>
