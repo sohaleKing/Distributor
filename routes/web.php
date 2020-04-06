@@ -36,3 +36,7 @@ Route::view('/detail', 'detail');
 
 
 Route::get('/product', 'ProductController@index')->name('product');
+
+Route::view('/order', 'order');
+Route::post('/order', 'OrderController@create');
+Route::delete('/order/{orderId}', 'OrderController@delete');

@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
@@ -69,6 +70,7 @@
                             </li>
                         @endguest
                     </ul>
+                   
                 </div>
             </div>
         </nav>

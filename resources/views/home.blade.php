@@ -2,12 +2,12 @@
 @extends('layouts.head')
 
 @section('content')
-
+@include('layouts.nav')
 @include('layouts.banner')
 
 @include('layouts.category')
 
-<div class="container my-5 product-slider-text-wrapper">
+<div class="container product-slider-text-wrapper">
     <div class="row justify-content-center">
         <div class="col-md-12 justify-content-center">
             

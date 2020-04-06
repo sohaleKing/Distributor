@@ -36,7 +36,7 @@
                                     </p>
                                     <p class="description">{{ $product->description }}</p>                         
                                     <div class="add-to-cart-btn d-inline-block">
-                                        <button class="theme-button theme-button--alt">ADD TO CART</button>
+                                        <a href="{{ url('/cart') }}"><button class="theme-button theme-button--alt">ADD TO CART</button></a>
                                     </div>
                                     <div class="quick-view-other-info">
                                         <div class="other-info-links">
