@@ -28,15 +28,15 @@ Route::view('/contactMsg', 'contactMsg');
 
 
 Route::group(['middleware' => ['auth']], function () {
-Route::view('/cart', 'cart');
-Route::view('/checkout', 'checkout');
-Route::view('/detail', 'detail');
+    Route::view('/checkout', 'checkout');
+    Route::view('/detail', 'detail');
+    Route::get('/order', function(){ return view('order');});
+    Route::post('/order', 'OrderController@create');
+    Route::delete('/order/{orderId}', 'OrderController@delete');
+    
 });
 
 
 
 Route::get('/product', 'ProductController@index')->name('product');
-
-Route::view('/order', 'order');
-Route::post('/order', 'OrderController@create');
-Route::delete('/order/{orderId}', 'OrderController@delete');
+Route::get('/cart', 'CartController@index')->name('cart');
